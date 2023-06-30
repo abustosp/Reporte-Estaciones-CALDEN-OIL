@@ -2,41 +2,80 @@
 
 Script para realizar masivamente Reportes de las estaciones de servicio en base a los reportes individuales de CALDEN OIL
 
-## El licenciamiento es con GPL (es decir que no se puede distribuir comercialmente, solamente GRATIS). y si se utiliza este el código, su derivado también debe ser distribuido abierta y gratuitamente. 
+---
+
+ El licenciamiento es con GPL (es decir que no se puede distribuir comercialmente, solamente GRATIS). y si se utiliza este el código, su derivado también debe ser distribuido abierta y gratuitamente. 
+
+---
+
+### Opción de Ejecutar el Script
 
 Los pasos para ejecutar el Script suele ser el siguiente:
 
-    ֎ Descargarse Python (https://www.python.org/downloads/)
+1. Descargarse Python (https://www.python.org/downloads/)
 
-    ֎ Instalar Python (https://www.python.org/downloads/)
+2. Instalar Python (https://www.python.org/downloads/)
 
-    ֎ Crearse un entorno virtual. Generalmente se hace con el comando:
+3. Descargar/Clonar el Script:
+    - Descargar el ZIP o
+    - Clonar el repositorio con el comando en la consola/terminal:
 
-        python -m venv NombreDelEntornoVirtualaCrear
+    ```
+    git clone https://github.com/abustosp/Control-Monotributistas.git
+    ```
 
-    ֎  Activar el entorno virtual (depdende del sistema operativo):
-    
-            Windows: EntornoVirtual\Scripts\activate
-    
-            Linux: source EntornoVirtual/bin/activate 
+4. Crearse un entorno virtual. Generalmente se hace con el comando:
 
-    ֎ Instalar las dependencias/Librerías del proyecto (generalmente se hace con el comando):
+    Python en windows:
+    ```Python en Windows
+    python -m venv NombreDelEntornoVirtualaCrear
+    ```
+    Python en Linux/Mac:	
+    ```Python en Linux
+    python3 -m venv NombreDelEntornoVirtualaCrear
+    ```
 
-        pip install -r requirements.txt
+5.  Activar el entorno virtual (depdende del sistema operativo):
 
-            ֎ Si no se tiene el requirements.txt, se puede instalar cada librería con el comando:
+        - Windows: EntornoVirtual\Scripts\activate
 
-                pip install NombreDeLaLibreria1 NombreDeLaLibreria2==version NombreDeLaLibreria3>=version NombreDeLaLibreriaN<=version (generalmente suelo utilizar las siguientes librerias: pandas, numpy, lxml, customtkinter, matplotlib, seaborn , openpyxl, openai , PIL o pillow)
+        - Linux: source EntornoVirtual/bin/activate 
 
-    ֎ Descargar/Clonar el Script:
-            ֎ Descargar el ZIP o
-            ֎ Clonar el repositorio con el comando:
-                git clone URLDelRepositorio
+6. Instalar las dependencias/Librerías del proyecto (generalmente se hace con el comando):
+
+    ```Python	
+    pip install -r requirements.txt
+    ```
+
+    - Si no se tiene el requirements.txt, se puede instalar cada librería con el comando:
+
+    ```Python
+    pip install NombreDeLaLibreria1 NombreDeLaLibreria2==version NombreDeLaLibreria3>=version NombreDeLaLibreriaN<=version
+    ```
+
+        (generalmente suelo utilizar las siguientes librerias: pandas, numpy, lxml, customtkinter, matplotlib, seaborn , openpyxl, openai , PIL o pillow)
 
 
-Obviamente no me hago cargo del uso indebido del Scrip.
+---
+## Aclaraciones
 
-y si lo compartís debes hacelo gratis, y si querés podes mencioname también para que mas gente se meta en el mundo de la programacion/automatización con Python/RPA y/o mostrale mis videos para que vean que cosas pueden hacer)
+El uso del Programa/Script se ejecuta bajo la responsabilidad de quien lo utiliza. No me hago responsable de los daños que pueda ocasionar el uso indevido del mismo.
+
+Si lo compartís debes hacelo gratis bajo los lineamientos de PL, adicionalmente podés mencioname también para que mas personas conozcan en el mundo de la programacion/automatización con Python/RPA y/o mostrale mis videos para que vean que cosas pueden hacer.
+
+---
+
+### Links de Interés:
+
+- Link de invitación al grupo de RPA en Discord: https://discord.gg/KVYyryvAcD
+
+- Link de invitación al grupo de RPA en WhatsApp: https://chat.whatsapp.com/IekktfvfTNLCkdIagO6xz3
+
+- Tutorial de Descarga de Bots desde Uipath: https://youtu.be/hD5BH7YzABw
+
+- Tutorial de Instalación y descarga de Repositorios con Git: https://youtu.be/ujk27tRdA80
+
+---
 
 Cualquier cosa pueden contactarme en:
 
@@ -55,7 +94,9 @@ Cualquier cosa pueden contactarme en:
 
 <!-- [![Cafecito](https://img.shields.io/badge/-Cafecito-9cf?style=for-the-badge)](https://cafecito.app/abustos) -->
 
-[<img src="https://santanderpost.com.ar/wp-content/uploads/2022/02/Cafecito-.jpg" alt="Image" height="30" width="65\">](https://cafecito.app/abustos)
+<!-- [<img src="https://santanderpost.com.ar/wp-content/uploads/2022/02/Cafecito-.jpg" alt="Image" height="30" width="65\">](https://cafecito.app/abustos) -->
+
+[![Invitame un café en cafecito.app](https://cdn.cafecito.app/imgs/buttons/button_5.svg)](https://cafecito.app/abustos)
 
 <br/>
  
